@@ -12,10 +12,12 @@ variable "protocol" {
 }
 variable "cidr_blocks" {
   description = "List of CIDR blocks"
+  default = ""
 }
 variable "security_group_id" {
   description = "The security group to apply this rule to"
 }
 variable "source_security_group_id" {
   description = "The security group id to allow access to/from, depending on the type"
+  default = ""
 }
