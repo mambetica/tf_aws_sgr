@@ -1,4 +1,4 @@
-variable "type" = {
+variable "type" {
   description = "The type of rule being created. Valid options are ingress (inbound) or egress (outbound)"
 }
 variable "from_port" {
