@@ -2,7 +2,7 @@ variable "type" {
   description = "The type of rule being created. Valid options are ingress (inbound) or egress (outbound)"
 }
 variable "from_port" {
-  description = "The start port (or ICMP type number if protocol is "icmp")"
+  description = "The start port"
 }
 variable "to_port" {
   description = "The end range port"
